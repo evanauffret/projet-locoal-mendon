@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Contact</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='contact.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+  <header>
+    <img class="logo" src="Logo-hhlm-2.webp" alt="Logo Hermine Handball Lokoal Mendon">
+    <div id="liens" class="header">
+    <nav>
+        <a href="Accueil.html">ACCEUIL</a>
+        <a href="nos_equipes.html">NOS ÉQUIPES</a>
+        <a href="activites.html">ACTIVITÉS</a>
+        <a href="nous_rejoindre.html">NOUS REJOINDRE</a>
+        <a href="contact.html">CONTACT</a>
+    </nav>
+</div>
+</header>
+    <div id="container-formulaire" class="hero">
+        <div id="titre-Formulaire" class="hero"> <p> REMPLISSEZ CE FORULAIRE POUR NOUS CONTACTER</p></div>
+        <form action="/ma-page-de-traitement" method="post">
+            <ul>
+              <li>
+                <label for="name">Votre nom&nbsp;:</label>
+                <input type="text" id="name" name="user_name" required />
+              </li>
+              <li>
+                <label for="name">Votre prénom&nbsp;:</label>
+                <input type="text" id="name" name="user_name" required />
+              </li>
+              <li>
+                <label for="email">Votre Email&nbsp;:</label>
+                <input type="email" name="email" id="email" pattern=".+@example\.com" size="30" required />
+              </li>
+              <li>
+                <label for="text">D'autre chose à dire ?&nbsp;:</label>
+                <textarea id="text" name="texte-article" required ></textarea>
+              </li>
+            </ul>
+            <div class="button">
+                <button type="submit" class="button-24">Envoyer le formulaire</button>
+            </div>
+        </form>
+    </div>
+    <div id="footer" class="footer">
+      <p> Salle Emeraude, Locoal, 56550 Locoal-Mendon <br>Tél : <b>02 34 56 76 87</b><br> <b>Retrouvez-nous sur les réseaux sociaux</b></p>
+      <a href="https://www.facebook.com/HHBLM56/">
+          <img class="Facebook" src="https://upload.wikimedia.org/wikipedia/commons/c/cd/Facebook_logo_%28square%29.png" alt="Lien Facebook"></a>
+          <div id="liens" class="header">
+              <nav>
+                  <a href="contact.html">CONTACT</a>
+              </nav>
+            </div>
+  </div>
+</body>
+</html>

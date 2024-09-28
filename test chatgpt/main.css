@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #2855A6;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height: 50px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    text-align: center;
+    background-color: #E0E0E0;
+    padding: 20px;
+}
+
+.hero img {
+    max-width: 100%;
+    height: auto;
+}
+
+.partners-info {
+    padding: 20px;
+    background-color: white;
+}
+
+.partners-info h2 {
+    color: #2855A6;
+    margin-bottom: 20px;
+}
+
+.partners-info ul {
+    list-style-type: none;
